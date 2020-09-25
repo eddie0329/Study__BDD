@@ -1,0 +1,118 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Displaying stats",
+    "line": 1,
+    "id": "displaying-stats",
+    "tags": [],
+    "uri": "DisplayStats.feature",
+    "elements": [
+      {
+        "id": "displaying-stats;standard-household",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Standard household",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I'm on the main page",
+            "result": {
+              "status": "passed",
+              "duration": 167000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "days remaining",
+                      "5"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "rolls remaining",
+                      "10"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "roll rate",
+                      "2"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I should see the follow stats:",
+            "result": {
+              "status": "passed",
+              "duration": 25000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "displaying-stats;heavy-use-household",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "Heavy-use household",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I'm on the main page",
+            "result": {
+              "status": "passed",
+              "duration": 47000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "days remaining",
+                      "1"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "rolls remaining",
+                      "10"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "roll rate",
+                      "10"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "I should see the follow stats:",
+            "result": {
+              "status": "passed",
+              "duration": 22000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
