@@ -22,7 +22,7 @@
             "name": "I am on the main page",
             "result": {
               "status": "skipped",
-              "duration": 31000000
+              "duration": 40000000
             }
           },
           {
@@ -51,7 +51,7 @@
             "name": "I am on the main page",
             "result": {
               "status": "skipped",
-              "duration": 12000000
+              "duration": 20000000
             }
           },
           {
@@ -77,14 +77,9 @@
       {
         "id": "counter;click-minus-button",
         "keyword": "Scenario",
-        "line": 13,
+        "line": 12,
         "name": "Click minus button",
-        "tags": [
-          {
-            "name": "@focus",
-            "line": 12
-          }
-        ],
+        "tags": [],
         "type": "scenario",
         "steps": [
           {
@@ -93,28 +88,26 @@
             "line": 3,
             "name": "I am on the main page",
             "result": {
-              "status": "passed",
-              "duration": 42000000
+              "status": "skipped",
+              "duration": 14000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 14,
+            "line": 13,
             "name": "I click minus button",
             "result": {
-              "status": "passed",
-              "duration": 81000000
+              "status": "skipped"
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 15,
+            "line": 14,
             "name": "count display should -1",
             "result": {
-              "status": "passed",
-              "duration": 7000000
+              "status": "skipped"
             }
           }
         ]
@@ -122,12 +115,59 @@
       {
         "id": "counter;click-plus-button-when-count-is-100",
         "keyword": "Scenario",
-        "line": 18,
+        "line": 16,
         "name": "Click plus button when count is 100",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "I am on the main page",
+            "result": {
+              "status": "skipped",
+              "duration": 15000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 17,
+            "name": "Count is 100",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "I click plus button",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "count display should 101",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "counter;todo",
+        "keyword": "Scenario",
+        "line": 22,
+        "name": "Todo",
         "tags": [
           {
             "name": "@focus",
-            "line": 17
+            "line": 21
           }
         ],
         "type": "scenario",
@@ -139,37 +179,17 @@
             "name": "I am on the main page",
             "result": {
               "status": "passed",
-              "duration": 46000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 19,
-            "name": "Count is 100",
-            "result": {
-              "status": "passed",
-              "duration": 6000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 20,
-            "name": "I click plus button",
-            "result": {
-              "status": "passed",
-              "duration": 89000000
+              "duration": 77000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 21,
-            "name": "count display should 101",
+            "line": 23,
+            "name": "I can see Todo with text hello",
             "result": {
-              "status": "passed",
-              "duration": 33000000
+              "status": "undefined",
+              "duration": 10000000
             }
           }
         ]
