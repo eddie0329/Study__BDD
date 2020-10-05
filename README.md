@@ -16,4 +16,4 @@ npm install
 ```
 ## 🎉 Useful
 
-See more information at my [blog](https://eddie-sunny.tistory.com/)
+See more information at my [blog](https://eddie-sunny.tistory.com/)!
