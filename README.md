@@ -12,6 +12,7 @@ All the summaries and references are placed in issue tab.
 
 ```sh
 cd Study_BDD
+// cd to selected project
 npm install
 ```
 ## 🎉 Useful
